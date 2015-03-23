@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ConfirmOrder"
+            android:label="@string/title_activity_confirm_order" >
+        </activity>
+        <activity
+            android:name=".InsertPaymentInfo"
+            android:label="@string/title_activity_insert_payment_info" >
+        </activity>
+        <activity
+            android:name=".SelectPizza"
+            android:label="@string/title_activity_select_pizza" >
+        </activity>
+        <activity
+            android:name=".SelectPizzeria"
+            android:label="@string/title_activity_select_pizzeria" >
+        </activity>
     </application>
 
 </manifest>
