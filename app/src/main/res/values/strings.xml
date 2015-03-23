@@ -14,5 +14,13 @@
         <item>Delivery time</item>
         <item>Diet-friendly</item>
     </string-array>
+    <string name="title_activity_order_history">OrderHistoryActivity</string>
+
+    <string-array name="previousOrders_array">
+        <item>21-02-2015    18:36    €30,25</item>
+        <item>02-03-2015    14:00    €8,26</item>
+        <item>10-03-2015    22:12    €40,50</item>
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
 
 </resources>

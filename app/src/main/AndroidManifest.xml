@@ -27,11 +27,21 @@
         <activity
             android:name=".SelectPizza"
             android:label="@string/title_activity_select_pizza" >
-        </activity><!--
+        </activity>
+        <!--
         <activity
             android:name=".SelectPizzeria"
             android:label="@string/title_activity_select_pizzeria" >
-        </activity>-->
+        </activity>
+        -->
+        <activity
+            android:name=".OrderHistoryActivity"
+            android:label="@string/title_activity_order_history" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="com.example.etienne.pizzapp.OrderHistoryActivity">
+
+    <TextView android:text="Order History" android:layout_width="fill_parent"
+        android:layout_height="100dp" android:textSize="20pt"
+        android:id="@+id/textView2"
+        android:gravity="bottom"
+        android:background="@drawable/orderhistory"
+        android:textColor="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2">
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#ff000000"
+        android:id="@+id/OrderHistoryListView"></ListView>
+    </LinearLayout>
+</RelativeLayout>
