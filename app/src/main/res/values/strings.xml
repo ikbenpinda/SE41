@@ -7,4 +7,12 @@
     <string name="title_activity_insert_payment_info">InsertPaymentInfo</string>
     <string name="title_activity_select_pizza">SelectPizza</string>
     <string name="title_activity_select_pizzeria">SelectPizzeria</string>
+    <string-array name="selection_filter">
+        <item>Distance</item>
+        <item>Popularity</item>
+        <item>Pricing</item>
+        <item>Delivery time</item>
+        <item>Diet-friendly</item>
+    </string-array>
+
 </resources>
