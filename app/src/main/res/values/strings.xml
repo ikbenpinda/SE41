@@ -15,7 +15,21 @@
         <item>Diet-friendly</item>
     </string-array>
     <string name="title_activity_order_history">OrderHistoryActivity</string>
-
+    <string-array name="pizzerias_array">
+        <item>Eethuis Anatolia  15km    *****</item>
+        <item>Doner Point       5km    ****</item>
+        <item>Pizza Hut         2km    ***</item>
+        <item>New York Pizza    7km    *****</item>
+        <item>Domino\'s Pizza    3km    ***</item>
+    </string-array>
+    <string-array name="pizzas_array">
+        <item>Pizza Hawaii     15cm    €9,25</item>
+        <item>Pizza Tonno      15cm    €9,75</item>
+        <item>Pizza Calzone    20cm    €13,50</item>
+        <item>Pizza Shoarma    20cm    €12,50</item>
+        <item>Pizza Margherita    20cm    €7,50</item>
+        <item>Pizza Quattro Stagioni    20cm    €11,50</item>
+    </string-array>
     <string-array name="previousOrders_array">
         <item>21-02-2015    18:36    €30,25</item>
         <item>02-03-2015    14:00    €8,26</item>
