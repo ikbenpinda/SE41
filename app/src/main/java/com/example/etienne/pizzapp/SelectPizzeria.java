@@ -1,9 +1,12 @@
 package com.example.etienne.pizzapp;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Spinner;
@@ -30,5 +33,12 @@ public class SelectPizzeria extends ActionBarActivity {
         lv = (ListView)findViewById(R.id.listView);
         String[] previousOrders = getResources().getStringArray(R.array.pizzerias_array);
         lv.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, previousOrders));
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent pizzaIntent = new Intent(view.getContext(), SelectPizza.class);
+                view.getContext().startActivity(pizzaIntent);
+            }
+        });
     }
 }
