@@ -40,7 +40,7 @@
             android:id="@+id/spinner" />
 
         <ListView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="212dp"
             android:id="@+id/listView" />
 
