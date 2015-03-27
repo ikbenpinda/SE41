@@ -18,7 +18,7 @@
             android:src="@drawable/pizza_1"
             android:scaleType="centerCrop" />
 
-        <TextView android:text="Pizza selecteren" android:layout_width="fill_parent"
+        <TextView android:text="Pizza selecteren" android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
             android:layout_alignLeft="@+id/imageview2"
@@ -29,7 +29,7 @@
             android:layout_marginTop="-40dp" />
 
         <ListView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/listView2" />
 

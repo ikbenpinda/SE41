@@ -35,6 +35,11 @@
         <item>02-03-2015    14:00    €8,26</item>
         <item>10-03-2015    22:12    €40,50</item>
     </string-array>
+    <string-array name="selectedPizzas_array">
+        <item>1    Pizza Hawaii    €9,25</item>
+        <item>1    Pizza Quattro Stagioni    €11,50</item>
+        <item>TOTAAL €20,75</item>
+    </string-array>
     <string name="title_activity_settings">PizzApp</string>
     <string name="title_activity_home">PizzApp</string>
 
