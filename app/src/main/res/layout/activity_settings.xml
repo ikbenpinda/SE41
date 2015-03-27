@@ -7,23 +7,16 @@
     tools:context="com.example.etienne.pizzapp.SettingsActivity">
 
     <TextView android:text="Settings" android:layout_width="wrap_content"
+        android:id="@+id/settingsTitle"
         android:layout_height="wrap_content"
         android:textSize="16pt"
         android:textColor="#000000"/>
-
-    <ImageView
-        android:id="@+id/settingsIcon"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/setting"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
 
     <TextView
         android:id="@+id/LanguageTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/settingsIcon"
+        android:layout_below="@+id/settingsTitle"
         android:textSize="14pt"
         android:layout_marginTop="20dp"
         android:text="Language: "/>
@@ -37,13 +30,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nederlands"
-            android:checked="true"/>
+            android:checked="false"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="English"
-            android:checked="false"/>
+            android:checked="true"/>
         </RadioGroup>
 
 
