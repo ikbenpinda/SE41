@@ -40,12 +40,19 @@
         <activity
             android:name=".HomeActivity"
             android:label="@string/title_activity_home" >
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProcessingPaymentActivity"
+            android:label="@string/title_activity_processing_payment" >
+        </activity>
+        <activity
+            android:name=".OrderCompletedActivity"
+            android:label="@string/title_activity_order_completed" >
         </activity>
     </application>
 

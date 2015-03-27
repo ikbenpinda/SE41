@@ -42,5 +42,7 @@
     </string-array>
     <string name="title_activity_settings">PizzApp</string>
     <string name="title_activity_home">PizzApp</string>
+    <string name="title_activity_processing_payment">PizzApp</string>
+    <string name="title_activity_order_completed">PizzApp</string>
 
 </resources>
