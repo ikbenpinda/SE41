@@ -22,7 +22,9 @@ public class ProcessingPaymentActivity extends ActionBarActivity {
             @Override
             public void run() {
                 Intent completeIntent = new Intent(findViewById(R.id.processingLabel).getContext(), OrderCompletedActivity.class);
+                completeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 findViewById(R.id.processingLabel).getContext().startActivity(completeIntent);
+                finish();
             }
         };
 
