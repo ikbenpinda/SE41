@@ -13,7 +13,9 @@
         </activity>
         <activity
             android:name=".ConfirmOrder"
-            android:label="@string/title_activity_confirm_order" >
+            android:label="@string/title_activity_confirm_order"
+            android:windowSoftInputMode="adjustPan">
+            >
         </activity>
         <activity
             android:name=".InsertPaymentInfo"
@@ -54,6 +56,10 @@
             android:name=".OrderCompletedActivity"
             android:label="@string/title_activity_order_completed" >
         </activity>
+        <activity
+            android:name=".CustomerInfo"
+            android:label="PizzApp" >
+            </activity>
     </application>
 
 </manifest>

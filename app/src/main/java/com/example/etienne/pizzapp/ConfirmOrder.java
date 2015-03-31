@@ -3,8 +3,6 @@ package com.example.etienne.pizzapp;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -28,7 +26,7 @@ public class ConfirmOrder extends ActionBarActivity {
         confirmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent confirmIntent = new Intent(v.getContext(), InsertPaymentInfo.class);
+                Intent confirmIntent = new Intent(v.getContext(), CustomerInfo.class);
                 v.getContext().startActivity(confirmIntent);
             }
         });
