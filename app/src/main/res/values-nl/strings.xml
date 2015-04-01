@@ -3,10 +3,10 @@
     <string name="app_name">PizzApp</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Instellingen</string>
-    <string name="title_activity_confirm_order">PizzApp</string>
-    <string name="title_activity_insert_payment_info">PizzApp</string>
-    <string name="title_activity_select_pizza">PizzApp</string>
-    <string name="title_activity_select_pizzeria">PizzApp</string>
+    <string name="title_activity_confirm_order">Bestellen 1/3</string>
+    <string name="title_activity_insert_payment_info">Bestellen 3/3</string>
+    <string name="title_activity_select_pizza">Kies pizza</string>
+    <string name="title_activity_select_pizzeria">Kies pizzeria</string>
     <string-array name="selection_filter">
         <item>Afstand</item>
         <item>Populariteit</item>
@@ -14,7 +14,7 @@
         <item>Bezorgtijd</item>
         <item>Allergievriendelijk</item>
     </string-array>
-    <string name="title_activity_order_history">PizzApp</string>
+    <string name="title_activity_order_history">Bestelgeschiedenis</string>
     <string-array name="pizzerias_array">
         <item>Eethuis Anatolia  15km    *****</item>
         <item>Doner Point       5km    ****</item>
@@ -40,8 +40,7 @@
         <item>1    Pizza Quattro Stagioni    €11,50</item>
         <item>TOTAAL €20,75</item>
     </string-array>
-    <string name="title_activity_settings">PizzApp</string>
-    <string name="title_activity_home">PizzApp</string>
+    <string name="title_activity_settings">Instellingen</string>
     <string name="title_activity_processing_payment">PizzApp</string>
     <string name="title_activity_order_completed">PizzApp</string>
 
@@ -52,4 +51,5 @@
     <string name="btn_insertpaymentinfo_cash">Contant</string>
     <string name="actionbar_vieworder">Huidige bestelling</string>
     <string name="btn_settings_confirmsettings">Bevestigen</string>
+    <string name="title_activity_customer_info">Bestellen 2/3</string>
 </resources>

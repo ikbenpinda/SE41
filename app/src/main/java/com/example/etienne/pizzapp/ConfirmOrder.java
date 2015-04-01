@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -46,7 +48,7 @@ public class ConfirmOrder extends ActionBarActivity {
         lv.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, selectedPizzas));
 
         Button confirmButton = (Button)findViewById(R.id.confirmButton);
-        Button addButton = (Button)findViewById(R.id.addButton); //add pizza? TODO
+        Button addButton = (Button)findViewById(R.id.addButton);
 
         confirmButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,5 +73,13 @@ public class ConfirmOrder extends ActionBarActivity {
                 toast.show();
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu items for use in the action bar
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_confirm_order, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 }

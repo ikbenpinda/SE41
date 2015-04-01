@@ -10,7 +10,7 @@
         <activity
             android:name=".SelectPizzeria"
             android:parentActivityName=".HomeActivity"
-            android:label="@string/app_name" >
+            android:label="@string/title_activity_select_pizzeria" >
         </activity>
         <activity
             android:name=".ConfirmOrder"
@@ -20,7 +20,7 @@
         </activity>
         <activity
             android:name=".InsertPaymentInfo"
-            android:parentActivityName=".ConfirmOrder"
+            android:parentActivityName=".CustomerInfo"
             android:label="@string/title_activity_insert_payment_info" >
         </activity>
         <activity
@@ -28,12 +28,6 @@
             android:parentActivityName=".SelectPizzeria"
             android:label="@string/title_activity_select_pizza" >
         </activity>
-        <!--
-        <activity
-            android:name=".SelectPizzeria"
-            android:label="@string/title_activity_select_pizzeria" >
-        </activity>
-        -->
         <activity
             android:name=".OrderHistoryActivity"
             android:parentActivityName=".HomeActivity"
@@ -54,6 +48,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".CustomerInfo"
+            android:parentActivityName=".ConfirmOrder"
+            android:label="@string/title_activity_customer_info" >
+        </activity>
+        <activity
             android:name=".ProcessingPaymentActivity"
             android:label="@string/title_activity_processing_payment" >
         </activity>
@@ -61,11 +60,6 @@
             android:name=".OrderCompletedActivity"
             android:label="@string/title_activity_order_completed" >
         </activity>
-        <activity
-            android:name=".CustomerInfo"
-            android:parentActivityName=".ConfirmOrder"
-            android:label="PizzApp" >
-            </activity>
     </application>
 
 </manifest>

@@ -4,7 +4,7 @@
     tools:context="com.example.etienne.pizzapp.SelectPizza">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
-    <item android:id="@+id/action_search"
+    <item android:id="@+id/action_checkout"
         android:icon="@drawable/checkout"
         android:title="@string/actionbar_vieworder"
         app:showAsAction="ifRoom" />

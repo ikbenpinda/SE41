@@ -25,10 +25,15 @@ public class SelectPizza extends ActionBarActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Intent i;
         // Handle presses on the action bar items
         switch (item.getItemId()) {
             case R.id.action_settings:
-                Intent i = new Intent(this, SettingsActivity.class);
+                i = new Intent(this, SettingsActivity.class);
+                startActivity(i);
+                return true;
+            case R.id.action_checkout:
+                i = new Intent(this, ConfirmOrder.class);
                 startActivity(i);
                 return true;
             default:
