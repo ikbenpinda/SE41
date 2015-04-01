@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Pizzeria zoeken"
+            android:text="@string/lbl_selectpizzeria_search"
             android:textColor="#FFFFFF"
             android:textSize="32dp"
             android:layout_alignLeft="@+id/imageview"

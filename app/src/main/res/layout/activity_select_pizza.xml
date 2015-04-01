@@ -18,7 +18,7 @@
             android:src="@drawable/pizza_1"
             android:scaleType="centerCrop" />
 
-        <TextView android:text="Pizza selecteren" android:layout_width="wrap_content"
+        <TextView android:text="@string/lbl_selectpizza_select" android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#FFFFFF"
             android:layout_alignLeft="@+id/imageview2"

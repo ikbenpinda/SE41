@@ -13,7 +13,7 @@
         android:layout_height="fill_parent"
         android:layout_weight="1"
         android:textSize="16pt"
-        android:text="Creditcard"
+        android:text="@string/btn_insertpaymentinfo_creditcard"
         />
 
     <Button
@@ -22,7 +22,7 @@
         android:layout_height="fill_parent"
         android:layout_weight="1"
         android:textSize="16pt"
-        android:text="iDeal"
+        android:text="@string/btn_insertpaymentinfo_ideal"
         />
 
     <Button
@@ -31,7 +31,7 @@
         android:layout_height="fill_parent"
         android:layout_weight="1"
         android:textSize="16pt"
-        android:text="Cash"
+        android:text="@string/btn_insertpaymentinfo_cash"
         />
 
 </LinearLayout>

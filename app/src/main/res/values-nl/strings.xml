@@ -1,19 +1,18 @@
-<!-- Contains the English(Default) translations for this app.-->
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PizzApp</string>
-
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Instellingen</string>
     <string name="title_activity_confirm_order">PizzApp</string>
     <string name="title_activity_insert_payment_info">PizzApp</string>
     <string name="title_activity_select_pizza">PizzApp</string>
     <string name="title_activity_select_pizzeria">PizzApp</string>
     <string-array name="selection_filter">
-        <item>Distance</item>
-        <item>Popularity</item>
-        <item>Pricing</item>
-        <item>Delivery time</item>
-        <item>Diet-friendly</item>
+        <item>Afstand</item>
+        <item>Populariteit</item>
+        <item>Prijs</item>
+        <item>Bezorgtijd</item>
+        <item>Allergievriendelijk</item>
     </string-array>
     <string name="title_activity_order_history">PizzApp</string>
     <string-array name="pizzerias_array">
@@ -36,19 +35,6 @@
         <item>02-03-2015    14:00    €8,26</item>
         <item>10-03-2015    22:12    €40,50</item>
     </string-array>
-    <string-array name="Available_Ingredients">
-        <item>Shoarma</item>
-        <item>Tuna</item>
-        <item>Pineapple</item>
-        <item>Mozzarella</item>
-        <item>Ham</item>
-        <item>Oregano</item>
-        <item>Chicken</item>
-        <item>Salami</item>
-        <item>Pepperoni</item>
-        <item>Emmentaler</item>
-    </string-array>
-
     <string-array name="selectedPizzas_array">
         <item>1    Pizza Hawaii    €9,25</item>
         <item>1    Pizza Quattro Stagioni    €11,50</item>
@@ -58,14 +44,12 @@
     <string name="title_activity_home">PizzApp</string>
     <string name="title_activity_processing_payment">PizzApp</string>
     <string name="title_activity_order_completed">PizzApp</string>
-    <string name="lbl_language">Language:</string>
-    <string name="lbl_settings_settings">Settings</string>
-    <string name="lbl_selectpizzeria_search">Find pizzeria</string>
-    <string name="lbl_selectpizza_select">Select pizza</string>
-    <string name="btn_insertpaymentinfo_creditcard" translatable="false">Creditcard</string>
-    <string name="btn_insertpaymentinfo_ideal" translatable="false">iDeal</string>
-    <string name="btn_insertpaymentinfo_cash">Cash</string>
-    <string name="actionbar_vieworder">View order</string>
-    <string name="btn_settings_confirmsettings">Confirm</string>
 
+    <string name="lbl_language">Taal:</string>
+    <string name="lbl_settings_settings">Instellingen:</string>
+    <string name="lbl_selectpizzeria_search">Pizzeria zoeken</string>
+    <string name="lbl_selectpizza_select">Pizza selecteren</string>
+    <string name="btn_insertpaymentinfo_cash">Contant</string>
+    <string name="actionbar_vieworder">Huidige bestelling</string>
+    <string name="btn_settings_confirmsettings">Bevestigen</string>
 </resources>
