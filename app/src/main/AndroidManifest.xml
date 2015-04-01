@@ -9,34 +9,34 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".SelectPizzeria"
-            android:parentActivityName=".HomeActivity"
-            android:label="@string/title_activity_select_pizzeria" >
+            android:label="@string/title_activity_select_pizzeria"
+            android:parentActivityName=".HomeActivity" >
         </activity>
         <activity
             android:name=".ConfirmOrder"
-            android:parentActivityName=".SelectPizza"
             android:label="@string/title_activity_confirm_order"
-            android:windowSoftInputMode="adjustPan">
+            android:parentActivityName=".SelectPizza"
+            android:windowSoftInputMode="adjustPan" >
         </activity>
         <activity
             android:name=".InsertPaymentInfo"
-            android:parentActivityName=".CustomerInfo"
-            android:label="@string/title_activity_insert_payment_info" >
+            android:label="@string/title_activity_insert_payment_info"
+            android:parentActivityName=".CustomerInfo" >
         </activity>
         <activity
             android:name=".SelectPizza"
-            android:parentActivityName=".SelectPizzeria"
-            android:label="@string/title_activity_select_pizza" >
+            android:label="@string/title_activity_select_pizza"
+            android:parentActivityName=".SelectPizzeria" >
         </activity>
         <activity
             android:name=".OrderHistoryActivity"
-            android:parentActivityName=".HomeActivity"
-            android:label="@string/title_activity_order_history" >
+            android:label="@string/title_activity_order_history"
+            android:parentActivityName=".HomeActivity" >
         </activity>
         <activity
             android:name=".SettingsActivity"
-            android:parentActivityName=".HomeActivity"
-            android:label="@string/title_activity_settings" >
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".HomeActivity" >
         </activity>
         <activity
             android:name=".HomeActivity"
@@ -49,8 +49,8 @@
         </activity>
         <activity
             android:name=".CustomerInfo"
-            android:parentActivityName=".ConfirmOrder"
-            android:label="@string/title_activity_customer_info" >
+            android:label="@string/title_activity_customer_info"
+            android:parentActivityName=".ConfirmOrder" >
         </activity>
         <activity
             android:name=".ProcessingPaymentActivity"
@@ -59,6 +59,14 @@
         <activity
             android:name=".OrderCompletedActivity"
             android:label="@string/title_activity_order_completed" >
+        </activity>
+        <activity
+            android:name=".HistoryDetailViewActivity"
+            android:label="@string/title_activity_history_detail_view"
+            android:parentActivityName=".OrderHistoryActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.etienne.pizzapp.OrderHistoryActivity" />
         </activity>
     </application>
 

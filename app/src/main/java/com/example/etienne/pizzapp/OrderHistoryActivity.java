@@ -5,11 +5,13 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 
-public class OrderHistoryActivity extends ActionBarActivity {
+public class OrderHistoryActivity extends ActionBarActivity implements AdapterView.OnItemClickListener {
 
     ListView lv;
 
@@ -35,5 +37,13 @@ public class OrderHistoryActivity extends ActionBarActivity {
         lv = (ListView)findViewById(R.id.OrderHistoryListView);
         String[] previousOrders = getResources().getStringArray(R.array.previousOrders_array);
         lv.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, previousOrders));
+
+        lv.setOnItemClickListener(this);
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+        Intent intent = new Intent(this, HistoryDetailViewActivity.class);
+        startActivity(intent);
     }
 }

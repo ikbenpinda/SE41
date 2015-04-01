@@ -52,4 +52,5 @@
     <string name="actionbar_vieworder">Huidige bestelling</string>
     <string name="btn_settings_confirmsettings">Bevestigen</string>
     <string name="title_activity_customer_info">Bestellen 2/3</string>
+    <string name="title_activity_history_detail_view">Bestelgeschiedenis</string>
 </resources>

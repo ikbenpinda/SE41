@@ -68,5 +68,6 @@
     <string name="actionbar_vieworder">View order</string>
     <string name="btn_settings_confirmsettings">Confirm</string>
     <string name="title_activity_customer_info">Order 2/3</string>
+    <string name="title_activity_history_detail_view">Order history</string>
 
 </resources>
