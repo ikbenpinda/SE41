@@ -6,22 +6,71 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.etienne.pizzapp.HistoryDetailViewActivity">
 
-    <TextView android:text="Bestelling van 02-03-2015" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView android:text="Pizzeria Anatolia" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView android:text="-----------------" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView android:text="Pizza Margherita 15cm €9,75" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView android:text="Pizza Hawaii 15cm €9,75" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView android:text="Pizza Shoarma 20cm €9,75" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView android:text="Pizza Tonno 15cm €9,75" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView android:text="-----------------" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <TextView android:text="Totaal: €40,50" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView android:text="Bestelling van 02-03-2015" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:height="18sp"
+            android:textSize="14sp" />
+
+        <TextView android:text="Pizzeria Anatolia" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:height="18sp"
+            android:textSize="14sp" />
+
+        <TextView android:text="-----------------" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:height="18sp"
+            android:textSize="14sp" />
+
+        <TextView android:text="Pizza Margherita 15cm €9,75" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:height="18sp"
+            android:textSize="14sp" />
+
+        <TextView android:text="Pizza Hawaii 15cm €9,75" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:height="18sp"
+            android:textSize="14sp" />
+
+        <TextView android:text="Pizza Shoarma 20cm €9,75" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:height="18sp"
+            android:textSize="14sp" />
+
+        <TextView android:text="Pizza Tonno 15cm €9,75" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:height="18sp"
+            android:textSize="14sp" />
+
+        <TextView android:text="-----------------" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:height="18sp"
+            android:textSize="14sp" />
+
+        <TextView android:text="Totaal: €40,50" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:height="18sp"
+            android:textSize="14sp" />
+    </LinearLayout>
 </RelativeLayout>
