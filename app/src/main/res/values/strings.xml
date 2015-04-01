@@ -36,18 +36,6 @@
         <item>02-03-2015    14:00    €8,26</item>
         <item>10-03-2015    22:12    €40,50</item>
     </string-array>
-    <string-array name="Available_Ingredients">
-        <item>Shoarma</item>
-        <item>Tuna</item>
-        <item>Pineapple</item>
-        <item>Mozzarella</item>
-        <item>Ham</item>
-        <item>Oregano</item>
-        <item>Chicken</item>
-        <item>Salami</item>
-        <item>Pepperoni</item>
-        <item>Emmentaler</item>
-    </string-array>
 
     <string-array name="selectedPizzas_array">
         <item>1    Pizza Hawaii    €9,25</item>
@@ -69,5 +57,8 @@
     <string name="btn_settings_confirmsettings">Confirm</string>
     <string name="title_activity_customer_info">Order 2/3</string>
     <string name="title_activity_history_detail_view">Order history</string>
+    <string name="btn_home_orderpizza">Order pizza</string>
+    <string name="btn_home_viewhistory">View history</string>
+    <string name="btn_home_settings">Settings</string>
 
 </resources>

@@ -13,7 +13,7 @@
         android:layout_weight="1"
         android:id="@+id/orderPizzaButton"
         android:textSize="16pt"
-        android:text="Order Pizza"/>
+        android:text="@string/btn_home_orderpizza"/>
 
     <Button
         android:layout_width="fill_parent"
@@ -21,7 +21,7 @@
         android:layout_weight="1"
         android:id="@+id/orderHistoryButton"
         android:textSize="16pt"
-        android:text="Order History"/>
+        android:text="@string/btn_home_viewhistory"/>
 
     <Button
         android:layout_width="fill_parent"
@@ -29,5 +29,5 @@
         android:layout_weight="1"
         android:id="@+id/settingsButton"
         android:textSize="16pt"
-        android:text="Settings"/>
+        android:text="@string/btn_home_settings"/>
 </LinearLayout>
