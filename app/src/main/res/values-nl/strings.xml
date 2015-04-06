@@ -56,4 +56,7 @@
     <string name="btn_home_orderpizza">Bestel Pizza</string>
     <string name="btn_home_viewhistory">Bestelgeschiedenis</string>
     <string name="btn_home_settings">Instellingen</string>
+    <string name="lbl_confirmorder_extrainfo">Extra info (allergieën, etc.)</string>
+    <string name="btn_confirmorder_addpizza">Pizza toevoegen</string>
+    <string name="btn_confirmorder_confirm">Bevestig bestelling</string>
 </resources>

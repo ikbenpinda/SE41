@@ -25,7 +25,7 @@
         android:ems="10"
         android:id="@+id/editText"
         android:layout_gravity="fill"
-        android:hint="Extra information(allergies etc.)"
+        android:hint="@string/lbl_confirmorder_extrainfo"
         android:importantForAccessibility="yes"
         android:layout_weight="0.65"
         android:gravity="top" />
@@ -34,7 +34,7 @@
         android:id="@+id/addButton"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Add Pizza"
+        android:text="@string/btn_confirmorder_addpizza"
         android:paddingTop="0dp"
         android:layout_marginTop="0dp"
         android:layout_weight="0.15" />
@@ -43,7 +43,7 @@
         android:id="@+id/confirmButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Confirm Order"
+        android:text="@string/btn_confirmorder_confirm"
         android:layout_marginTop="0dp"
         android:layout_weight="0.14" />
 

@@ -60,5 +60,8 @@
     <string name="btn_home_orderpizza">Order pizza</string>
     <string name="btn_home_viewhistory">View history</string>
     <string name="btn_home_settings">Settings</string>
+    <string name="lbl_confirmorder_extrainfo">Extra information(allergies etc.)</string>
+    <string name="btn_confirmorder_addpizza">Add Pizza</string>
+    <string name="btn_confirmorder_confirm">Confirm Order</string>
 
 </resources>
