@@ -59,4 +59,10 @@
     <string name="lbl_confirmorder_extrainfo">Extra info (allergieën, etc.)</string>
     <string name="btn_confirmorder_addpizza">Pizza toevoegen</string>
     <string name="btn_confirmorder_confirm">Bevestig bestelling</string>
+    <string name="title_activity_personalinfo">Klantgegevens</string>
+    <string name="lbl_personalinfo_address">Adres</string>
+    <string name="lbl_personalinfo_name">Naam</string>
+    <string name="lbl_personalinfo_phone">Telefoonnummer</string>
+    <string name="btn_personalinfo_confirm">Bevestigen</string>
+    <string name="lbl_personalinfo_email">E-mail</string>
 </resources>
