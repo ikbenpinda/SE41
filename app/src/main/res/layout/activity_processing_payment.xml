@@ -10,7 +10,7 @@
         android:id="@+id/processingLabel"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:text="Processing payment..."
+        android:text="@string/lbl_processingpayment_processing"
         android:textSize="12pt"
         android:gravity="center"/>
 

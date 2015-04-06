@@ -69,5 +69,7 @@
     <string name="lbl_personalinfo_phone">Phone number</string>
     <string name="lbl_personalinfo_address">Address</string>
     <string name="lbl_personalinfo_email">E-mail</string>
+    <string name="lbl_processingpayment_processing">Processing payment...</string>
+    <string name="lbl_end">Your order has been completed.  \n Thank you for using PizzApp!</string>
 
 </resources>

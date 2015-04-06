@@ -12,6 +12,6 @@
         android:layout_height="fill_parent"
         android:gravity="center"
         android:textSize="14pt"
-        android:text="Your order has been completed.\n\n Thank you for using PizzApp!"/>
+        android:text="@string/lbl_end"/>
 
 </RelativeLayout>
