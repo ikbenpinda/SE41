@@ -17,17 +17,15 @@
 
     <Button
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1"
+        android:layout_height="170dp"
         android:id="@+id/orderHistoryButton"
         android:textSize="16pt"
         android:text="@string/btn_home_viewhistory"/>
 
     <Button
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1"
+        android:layout_height="wrap_content"
         android:id="@+id/settingsButton"
-        android:textSize="16pt"
+        android:textSize="12pt"
         android:text="@string/btn_home_settings"/>
 </LinearLayout>
